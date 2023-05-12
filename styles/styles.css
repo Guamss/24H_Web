@@ -1,0 +1,78 @@
+nav
+{
+    text-align: center;
+    background-color:#69944b;
+    padding:15px;
+}
+nav > a
+{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size: 25px;
+    color:white;
+    padding:4px;
+    margin-left:50px;
+    text-decoration:none;
+    font-family: "Fira Code", serif;
+}
+img
+{
+    opacity: 0.9;
+    display: block;
+    margin:auto;
+    blur(5px);
+    filter:brightness(50%);
+}
+div#img_pres
+{
+    text-align: center;
+    position:relative;
+}
+#pres_h1
+{
+    z-index: 1;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+    font-family: "Liberation Mono", serif;
+}
+#pres_h2
+{
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+    text-decoration: underline;
+    font-family: "Liberation Mono", serif;
+}
+#pres_h1:hover
+{
+    color:#b5b5b5;
+    transition:0.5s;
+}
+#pres_h1:hover
+{
+    color:#b5b5b5;
+    transition:0.5s;
+}
+#pres_h2:hover
+{
+    color:#b5b5b5;
+    transition:0.5s;
+}
+div.conteneur
+{
+    padding-top:10%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction:row;
+}
+div.conteneur > h2
+{
+    font-family: "Liberation Mono", serif;
+}
